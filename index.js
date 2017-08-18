@@ -49,7 +49,7 @@ const taskKey = datastore.key(kind);
 
 exports.logIncidence = (req, res) => {
   // Get the city and date from the request
-  let incidence = req.body.result.parameters['any']; // incidence is a required param
+  let incidence = req.body.result.parameters['any'];  // incidence is a required param that comes from api.ai webhook - it is called "any" in the api.ai json
 
   // Prepares the new entity
   const task = {
