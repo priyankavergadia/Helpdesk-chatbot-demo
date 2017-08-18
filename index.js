@@ -4,12 +4,6 @@
 //  * @param {object} event The Cloud Functions event.
 //  * @param {function} callback The callback function.
 //  */
-// exports.helloWorld = function helloWorld (event, callback) {
-//   console.log(`My Cloud Function: ${event.data.message}`);
-//   var airlines = require('airline-codes');
-//   console.log(airlines.findWhere({ iata: 'WS' }).get('name'));
-//   callback();
-// };
 // Copyright 2017, Google, Inc.
 // Licensed under the Apache License, Version 2.0 (the 'License');
 // you may not use this file except in compliance with the License.
