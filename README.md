@@ -1,4 +1,4 @@
-# chatbot-demo
+# Helpdesk Chatbot Demo
 Chatbot incident logging demo featuring Cloud functions and Datastore API.
 This is a sample cloud functions code that interacts with the Google Cloud Datastore API and logs entries in the Datastore. 
 The index.js and package.json can be uploaded as zip file into cloud storage and refrenced in the cloud function or you can use the inline editor within cloud functions.
